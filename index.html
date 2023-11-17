@@ -3,15 +3,24 @@
   <head>
     <style>
   
+  
       
 body {
   padding-top: 40px;
-        padding-bottom: 40px;
-  background-color: ##fec7d7;
+  padding-bottom: 40px;
+  background-color: #fec7d7;
+ 
 }
 
 .name {
   color: #fffffe;
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  font-family: 'Ruda', sans-serif;
+font-size: 48px;
+font-family: 'Roboto Slab', serif;
+font-size: 16px;
 }
 
 .social-icons a {
@@ -20,12 +29,47 @@ body {
 }
 
 .link {
-  background-color: ##0e172c;
+  background-color: #0e172c;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  padding: 5px;
+  border: solid white;
+ font-family: 'Ruda', sans-serif;
+font-size: 48px;
+font-family: 'Roboto Slab', serif;
+font-size: 16px;
+
+}
+
+.link img{
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
 
 .link a {
-  color: #  background-color: ##0e172c;
+  color:  #d4d9e3;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+
+}
+
+.banner {
+  display:flex;
+  justify-content: center;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  font-family: 'Ruda', sans-serif;
+font-size: 48px;
+font-family: 'Roboto Slab', serif;
+font-size: 16px;
 }
 
 .banner-image {
@@ -41,8 +85,15 @@ body {
   border-radius: 48px;
   object-fit: cover;
 }
+.items {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  flex-grow: 1;
+}
     </style>
 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
   </head>
   <body>
     <div class="banner">
@@ -60,10 +111,6 @@ body {
 
       <a href="https://www.linkedin.com/in/anais-morales1/" target="_blank">
         LinkedIn
-      </a>
-
-      <a href="https://anaismorales.com/" target="_blank">
-        Art Portfolio
       </a>
     </div>
 
